@@ -1,10 +1,10 @@
 <?php
   try {
 
-    $HOST = "localhost";
-    $BANCO = "";
-    $USUARIO = "";
-    $SENHA = "";
+    $HOST = ""; //nome do host
+    $BANCO = ""; //nome do banco
+    $USUARIO = ""; //nome do usuario
+    $SENHA = ""; // senha
 
     $PDO = new PDO("mysql:host=" . $HOST . ";dbname=" . $BANCO . ";charset=utf8", $USUARIO, $SENHA);
 
