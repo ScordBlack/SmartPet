@@ -2,9 +2,9 @@
   try {
 
     $HOST = "localhost";
-    $BANCO = "id9609465_login";
-    $USUARIO = "id9609465_root";
-    $SENHA = "12345";
+    $BANCO = "";
+    $USUARIO = "";
+    $SENHA = "";
 
     $PDO = new PDO("mysql:host=" . $HOST . ";dbname=" . $BANCO . ";charset=utf8", $USUARIO, $SENHA);
 
